@@ -4,8 +4,7 @@ MAX = 100
 
 def calculate_sum(arr):
    result = 0
-   for num in arr:
-      result += num
+   result = sum(arr)
    return result
 
 def main():
